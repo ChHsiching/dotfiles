@@ -1,0 +1,59 @@
+# 忽略包含敏感信息的文件
+*.pem
+*.key
+*.crt
+*.env
+.env.local
+.env.*.local
+*.secret
+
+# 忽略 SSH 和 GPG 密钥
+*.pub
+.ssh/
+.gpg/
+
+# Node.js 项目中的 node_modules 文件夹
+node_modules/
+
+# 忽略缓存和日志文件
+*.log
+*.cache
+.cache/
+*.bak
+*.swp
+*.swo
+*.tmp
+
+# 忽略操作系统生成的临时文件
+.DS_Store
+Thumbs.db
+*.lock
+.idea/
+.vscode/
+
+# 忽略编译生成的文件或目录
+dist/
+out/
+build/
+
+# 忽略 Python 编译文件
+*.pyc
+__pycache__/
+
+# 忽略 macOS Finder 属性文件
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 忽略 Linux 下的 Trash 文件夹
+.Trash-*
+
+# 忽略 git hooks 中的自动化脚本（可选）
+.hooks/
+
+# 忽略配置文件中特定路径的文件
+# 可以根据实际情况添加特定路径，比如:
+# ~/.config/nvim/backups/
+backups/
+swap/
+
